@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.account-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.your-balance-card {
+  border-radius: 16px;
+  height: 120px;
+  width: 300px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+}
+.your-balance {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.your-income {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.your-expenses {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+
+.balance-image {
+  height: 54px;
+  width: 54px;
+  margin-right: 20px;
+}
+.balance-text {
+  color: #475569;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.rupees-heading {
+  color: #334155;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
